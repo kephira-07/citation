@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #601191;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    font-family: alice,cursive;
+}
+
+.quote-container {
+    background-color: #ece8e8;
+    border-radius: 20px;
+    padding: 30px;
+    width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+blockquote {
+    font-size: 1.5em;
+    font-family: Satisfy,cursive;
+    margin: 20px 0;
+    
+}
+
+#author {
+    font-weight: bold;
+    color: #555;
+}
+
+button {
+    background-color: #c800ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: white;
+    color: #c800ff;;
+}
