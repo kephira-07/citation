@@ -5,7 +5,7 @@ const newQuoteBtn = document.getElementById("new-quote-btn");
 
 // L'URL de l'API que nous allons appeler
 // C'est une API gratuite et sans clé : https://quotable.io
-const apiUrl = "https://api.quotable.io/random";
+const apiUrl = "http://api.quotable.io/random";
 
 // On crée une fonction pour aller chercher la citation
 async function getNewQuote() {
